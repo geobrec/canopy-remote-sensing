@@ -1,0 +1,20 @@
+name: canopy
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.12
+  - scikit-learn
+  - scipy
+  - joblib
+  - rasterio
+  - geopandas
+  - rasterstats
+  - numpy
+  - matplotlib-base
+  - folium
+  - mapclassify
+  - tqdm
+  - jupyterlab
+  - ipykernel
+  - ipywidgets
