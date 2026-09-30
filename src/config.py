@@ -23,6 +23,8 @@ ALIGNED_LABELS_FILE = INTERIM_FOLDER / "labels_aligned.tif"
 CHIPS_FOLDER = INTERIM_FOLDER / "chips"
 PREDICTION_FILE = PROCESSED_FOLDER / "canopy_prediction.tif"
 NEIGHBORHOOD_RESULTS_FILE = PROCESSED_FOLDER / "neighborhood_canopy.geojson"
+NDVI_PREDICTION_FILE = PROCESSED_FOLDER / "ndvi_prediction.tif"
+NDVI_THRESHOLD_FILE = PROCESSED_FOLDER / "ndvi_threshold.json"
 MODEL_FILE = ROOT / "canopy_model.joblib"
 
 # Tree canopy is class 1 in the NYC land cover data.
