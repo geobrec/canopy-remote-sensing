@@ -29,5 +29,5 @@ CLASS_NAMES = {1: "tree canopy", 2: "grass/shrub", 3: "bare ground", 4: "water",
 # Tile size in pixels (256 pixels is approximately 154 m).
 CHIP_SIZE = 256
 
-# ✏️ EDIT: Set using the sizing check in notebook 01; offsets exclude the nodata border.
-STUDY_AREA = Window(col_off=1000, row_off=1000, width=8192, height=8192)
+# Set using the sizing check in notebook 01; offsets exclude the nodata border.
+STUDY_AREA = Window(col_off=0, row_off=0, width=10013, height=12760)
